@@ -1,0 +1,1 @@
+This repo will contain my first projects to the C programming language. It will cover the most basic aspects of the language from compiling commands in command line to variables, data types, control flow, 
