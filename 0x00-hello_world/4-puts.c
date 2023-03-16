@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-/*Main - this function prints using puts() 
- *Return - it return 0
+/**
+ * main - this function prints out data using puts() function
+ * return - returns zero
  */
 
 int main(void)
