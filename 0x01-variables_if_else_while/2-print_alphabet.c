@@ -1,21 +1,19 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- *main - the starting point for function 
- *Return: returns 0 for successful exe 
+ * main - the starting point of the program that compares alphabets
+ * Return: returns 0 for successful exe
  */
 int main(void)
 {
-	char c;
+	char c = 'a';
 
-	for (c = 'a'; c <= 'z'; ++c)
+	while (c <= 'z')
 	{
 		putchar(c);
+		c++;
 	}
-	for (c = 'A'; c <= 'Z'; ++c)
-	{
-		putchar(c);
-	}
+
 	putchar('\n');
 	return (0);
 }
