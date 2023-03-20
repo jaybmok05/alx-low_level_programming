@@ -19,13 +19,20 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	sprintf(n_str, "%d", n);
-	last_dg = n_str[(n_str[strlen(n_str) - 1] - '0')];
-	n_num = last_dg;
+	last_dg = n_str[strlen(n_str) - 1];
+	n_num = last_dg - '0';
 
 	if (n_num < 6 && n_num != 0)
 	{
-		n_num = -n_num;
-		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n_num);
+		if (n_num < 0)
+		{
+			n_num = -n_num;
+			printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n_num);
+		}
+		else
+		{
+			printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n_num);
+		}
 	}
 	else
 	{
