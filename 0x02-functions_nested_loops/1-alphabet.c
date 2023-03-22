@@ -2,12 +2,9 @@
 
 /**
  * print_alphabet - this is a function
- * that generates alphabets using a for
- * loop and prints them out
- * 
- * @j: the variable to store alphabets
- * 
- * Return: returns 0 if successful
+ * that generates alphabets using a for.
+ * loop and prints them out.
+ * Return: returns 0 if successful.
  */
 
 void print_alphabet(void)
