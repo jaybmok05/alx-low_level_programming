@@ -11,7 +11,7 @@
 
 int _islower(int c)
 {
-	if (c == 'c')
+	if (c == 'a')
 	{
 		return (1);
 	}
