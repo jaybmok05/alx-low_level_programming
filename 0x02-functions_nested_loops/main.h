@@ -16,6 +16,8 @@
  * print_sign(): this function checks for number signs
  *
  * _abs(): this computes the absolute value of an integer.
+ *
+ * print_last_digit - this prints the last digit of a number.
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  * @char: it is the data type for parameter.
@@ -28,4 +30,5 @@ int _islower(int c);/*function prototype for 3-islower.c*/
 int _isalpha(int c);/*function prototype for 4-isalpha.c*/
 int print_sign(int n);/*function prototype for 5-sign.c*/
 int _abs(int);/*function prototype for 6-abs.c*/
+int print_last_digit(int);
 #endif
