@@ -12,5 +12,6 @@
 
 int _putchar(char);/*function prototype for putchar.c*/
 void print_alphabet(void);/*function prototype for 1-alphabet.c*/
+void print_alphabet_x10(void);/*function prototype for 2-print_alphabet_x10.c*/
 
 #endif
