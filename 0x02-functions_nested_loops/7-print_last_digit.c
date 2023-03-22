@@ -10,9 +10,10 @@
 
 int print_last_digit(int n)
 {
-	int last_digit;
+	int last_dgt;
 
-	last_digit = n % 10;/*gets the last digit of n*/
-	_putchar(last_digit);
-	return (last_digit);
+	last_dgt = ((n % 10) + '0');/*gets the last digit of n*/
+
+	_putchar(last_dgt);
+	return (last_dgt);
 }
