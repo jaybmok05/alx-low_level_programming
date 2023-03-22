@@ -2,6 +2,7 @@
 
 /**
  * _isalpha - this function checks for alphabets.
+ * @c: this is the parameter for he function
  * Return: it will return 1 if
  * successful and 0 if not.
  */
