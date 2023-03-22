@@ -18,6 +18,17 @@
  * _abs(): this computes the absolute value of an integer.
  *
  * print_last_digit - this prints the last digit of a number.
+ *
+ * jack_bauer - a function that prints every minute of the day
+ * of Jack Bauer, starting from 00:00 to 23:59.
+ *
+ * times_table - a function that prints the 9 times table,
+ * starting with 0.
+ *
+ * add -  a function that adds two integers and returns the result.
+ *
+ * print_to_98: a function that prints all natural numbers
+ * from n to 98, followed by a new line.
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  * @char: it is the data type for parameter.
@@ -30,5 +41,9 @@ int _islower(int c);/*function prototype for 3-islower.c*/
 int _isalpha(int c);/*function prototype for 4-isalpha.c*/
 int print_sign(int n);/*function prototype for 5-sign.c*/
 int _abs(int);/*function prototype for 6-abs.c*/
-int print_last_digit(int);
+int print_last_digit(int);/*function prototype for 7-print_last_digit.c*/
+void jack_bauer(void);/*function prototype for 8-24_hours.c*/
+void times_table(void);/*function prototype for 9-times_table.c*/
+int add(int, int);/*function prototype for 10-a+b.c*/
+void print_to_98(int n);/*function prototype for 11-print_to_98.c*/
 #endif
