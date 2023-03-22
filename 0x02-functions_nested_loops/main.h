@@ -29,6 +29,8 @@
  *
  * print_to_98: a function that prints all natural numbers
  * from n to 98, followed by a new line.
+ *
+ * print_times_table - a function that prints the n times table, starting with 0.
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  * @char: it is the data type for parameter.
@@ -46,4 +48,5 @@ void jack_bauer(void);/*function prototype for 8-24_hours.c*/
 void times_table(void);/*function prototype for 9-times_table.c*/
 int add(int, int);/*function prototype for 10-a+b.c*/
 void print_to_98(int n);/*function prototype for 11-print_to_98.c*/
+void print_times_table(int n);/*function prototype for 100-times_table.c*/
 #endif
