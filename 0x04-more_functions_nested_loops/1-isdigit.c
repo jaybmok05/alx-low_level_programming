@@ -10,12 +10,12 @@
 
 int _isdigit(int c)
 {
-	int n_c;/*not char*/
+	int not_char;/*not char*/
 
-	n_c = !((c >= 'a' && c <= 'z') ||
+	not_char = !((c >= 'a' && c <= 'z') &&
 		(c >= 'A' && c <= 'Z'));
 
-	if (n_c)
+	if (not_char)
 	{
 		return (1);
 	}
