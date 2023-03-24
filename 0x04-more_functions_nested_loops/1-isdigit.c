@@ -15,7 +15,7 @@ int _isdigit(int c)
 	not_char = !((c >= 'a' && c <= 'z') &&
 		(c >= 'A' && c <= 'Z'));
 
-	if (not_char)
+	if (not_char || (c >= '0' && c <= '9'))
 	{
 		return (1);
 	}
