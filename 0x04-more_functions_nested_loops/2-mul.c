@@ -2,7 +2,7 @@
 
 /**
  * mul - multiiples two numbers
- * Return: return the results if 
+ * Return: return the results if
  * successful
  * @a: 1st param
  * @b: 2nd param
