@@ -13,6 +13,7 @@
  * more_numbers - prints 10 times the numbers,
  * from 0 to 14.
  * print_line - draws a straight line in the terminal.
+ * print_diaggonal - draws diagonal line in ther terminal
  * Return: returns the character
  * @c: parametter to the functions
  */
@@ -26,4 +27,5 @@ void print_numbers(void);
 void print_most_numbers(void);
 void more_numbers(void);
 void print_line(int n);
+void print_diagonal(int n);
 #endif
