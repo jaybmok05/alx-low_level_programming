@@ -15,6 +15,7 @@
  * print_line - draws a straight line in the terminal.
  * print_diaggonal - draws diagonal line in ther terminal
  * print_sqaure - draws square on the terminal
+ * fizz_buzz - the fizz buzz function
  * Return: returns the character
  * @c: parametter to the functions
  */
@@ -30,4 +31,5 @@ void more_numbers(void);
 void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
+void fizz_buzz(void);
 #endif
