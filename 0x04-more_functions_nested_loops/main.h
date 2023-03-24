@@ -11,7 +11,8 @@
  * from 0 to 9, followed by a new line. But,
  * doesnt print 2 and 4.
  * more_numbers - prints 10 times the numbers,
- * from 0 to 14
+ * from 0 to 14.
+ * print_line - draws a straight line in the terminal.
  * Return: returns the character
  * @c: parametter to the functions
  */
@@ -24,4 +25,5 @@ int mul(int a, int b);
 void print_numbers(void);
 void print_most_numbers(void);
 void more_numbers(void);
+void print_line(int n);
 #endif
