@@ -18,8 +18,8 @@ void print_most_numbers(void)
 		if (val != 2 && val != 4)
 		{
 			_putchar(val + '0');
+			_putchar('\n');
 		}
 		val++;
-		_putchar('\n');
 	}
 }
