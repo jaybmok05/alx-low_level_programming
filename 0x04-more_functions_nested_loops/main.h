@@ -16,6 +16,7 @@
  * print_diaggonal - draws diagonal line in ther terminal
  * print_sqaure - draws square on the terminal
  * print_triangle - draws triangle on the terminal
+ * print_number - a function that prints an integer.
  * Return: returns the character
  * @c: parametter to the functions
  */
@@ -32,4 +33,5 @@ void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
+void print_number(int n);
 #endif
