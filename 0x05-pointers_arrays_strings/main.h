@@ -16,6 +16,8 @@
  * puts2 -  function that prints every other character
  * of a string starting with the first character,
  * followed by a new line.
+ * print_array - function that prints n elements of
+ * an array of integers,followed by a new line.
  * Return: returns the character.
  * @c: the parameter.
  */
@@ -29,4 +31,5 @@ void _puts(char *str);
 void print_rev(char *s);
 void rev_string(char *s);
 void puts2(char *str);
+void print_array(int *a, int n);
 #endif
