@@ -13,6 +13,9 @@
  * print_rev - a function that prints a string, in reverse,
  * followed by a new line.
  * rev_string - a function that reverses a string.
+ * puts2 -  function that prints every other character
+ * of a string starting with the first character,
+ * followed by a new line.
  * Return: returns the character.
  * @c: the parameter.
  */
@@ -25,4 +28,5 @@ int _strlen(char *s);
 void _puts(char *str);
 void print_rev(char *s);
 void rev_string(char *s);
+void puts2(char *str);
 #endif
