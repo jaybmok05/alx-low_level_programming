@@ -16,8 +16,14 @@
  * puts2 -  function that prints every other character
  * of a string starting with the first character,
  * followed by a new line.
+ * puts_half - a function that prints half of a string,
+ * followed by a new line.
  * print_array - function that prints n elements of
  * an array of integers,followed by a new line.
+ * _strcpy - a function that copies the string
+ * pointed to by src,including the terminating null byte (\0),
+ * to the buffer pointed to by dest
+ * _atoi - a function that convert a string to an integer.
  * Return: returns the character.
  * @c: the parameter.
  */
@@ -31,5 +37,8 @@ void _puts(char *str);
 void print_rev(char *s);
 void rev_string(char *s);
 void puts2(char *str);
+void puts_half(char *str);
 void print_array(int *a, int n);
+char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
 #endif
