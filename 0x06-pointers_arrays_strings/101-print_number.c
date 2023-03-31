@@ -8,7 +8,7 @@
 
 void print_number(int n)
 {
-	if (!(n >= 'a' && n <= 'z' && n >= 'A' && n <= 'Z'))
+	if (n >= 0 && n<= 9)
 	{
 		if (n < 0)
 		{
