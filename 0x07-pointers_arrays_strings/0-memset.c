@@ -10,18 +10,16 @@
 
 char *_memset(char *str, char b, unsigned int n)
 {
-	unsigned int index_1, index_2;
-	unsigned int n_ele = sizeof(*str)/sizeof(char);
+	unsigned int index;
 
-	if (*str != '\0')
+	for (index = 0; index < n; index++)
 	{
-		for (index_1 = 0; index_1 < n_ele - 1; index_1++)
+		switch (*str)
 		{
-			for (index_2 = 0; index_2 < n; index_2++)
-			{
-				str[index_2] = b;
-			}
+		default:
+			str[index] = b;
 		}
+
 	}
 	return (str);
 }
