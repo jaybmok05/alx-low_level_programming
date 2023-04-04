@@ -14,7 +14,7 @@ char *_strchr(char *str, char c)
 
 	for (index = 0; index < n_ele - 1; index++)
 	{
-		if (str[index] == c)
+		if (str[index] == c && str[index] != '\0')
 		{
 			return (str + index);
 		}
