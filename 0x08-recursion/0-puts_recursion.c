@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts_recursion - a function that prints a string,
+ * _puts_recursion - a function that prints a string,
  * followed by a new line.
  * @str: the parameter.
  */
@@ -16,8 +16,8 @@ void _puts_recursion(char *str)
 	}
 	else if (str[index] == '\0')
 	{
-		return;
 		_putchar('\n');
+		return;
 	}
 	_puts_recursion(str + 1);
 }
