@@ -29,7 +29,7 @@ int is_palindrome(char *str)
 
 /**
  * length - a function that returns the length of a string
- * @s: the parameter
+ * @str: the parameter
  * Return: length of a string
  */
 
