@@ -9,18 +9,10 @@ int last_index(char *str);
 
 void _print_rev_recursion(char *str)
 {
-	int index;
 
-	index = (sizeof(*str) / sizeof(char)) - 1;
-
-	if (str[index] != '\0')
+	if (*str != '\0')
 	{
-		_putchar(str[index]);
+		_print_rev_recursion(str + 1);
+		_putchar(*str);
 	}
-	else if (str[index] == '\0')
-	{
-		_putchar(str[index]);
-		return;
-	}
-	_print_rev_recursion(str - 1);
 }
