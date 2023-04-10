@@ -16,11 +16,12 @@ int main(int argc, char *argv[])
 	if (argc == 1)
 	{
 		printf("%d\n", 0);
+		return (0);
 	}
 
 	for (index = 1; index < argc; index++)
 	{
-		for (index_2 = 0; argv[index][index_2] != '\0'; index_2++)
+		for (index_2 = 0; argv[index][index_2]; index_2++)
 		{
 			if (argv[index][index_2] < '0' || argv[index][index_2] > '9')
 			{
