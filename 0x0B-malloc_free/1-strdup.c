@@ -16,24 +16,23 @@ char *_strdup(char *str)
 	unsigned int size = 0, index;
 	char *new_str;
 
-	if (str == NULL)
-	{
-		return (NULL);
-	}
-
 	for (index = 0; str[index] != '\0'; index++)
 	{
 		size += index;
 	}
 
-	new_str = (char *)malloc(sizeof(char) * size);
+	new_str = (char *)malloc(sizeof(char) * size + 1);
 
-	if (new_str == NULL)
+	for (index = 0; index < size; index++)
+	{
+		new_str[index] = str[index];
+	}
+
+	if (new_str == NULL || str == NULL)
 	{
 		return (NULL);
 	}
 
-	new_str = str;
+	new_str[index] = '\0';
 	return (new_str);
-	free(new_str);
 }
