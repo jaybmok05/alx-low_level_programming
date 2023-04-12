@@ -28,15 +28,14 @@ char *_strdup(char *str)
 
 	new_str = (char *)malloc(sizeof(char) * size + 1);
 
+	if (new_str == NULL)
+	{
+		return (NULL);
+	}
+
 	for (index = 0; index < size; index++)
 	{
 		new_str[index] = str[index];
-	}
-
-	if (new_str == NULL)
-	{
-		free(new_str);
-		return (NULL);
 	}
 
 	new_str[index] = '\0';
