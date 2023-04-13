@@ -7,7 +7,7 @@
  * Return: returns NULL if ac == 0 or av == NULL,
  * returns a pointer to a new string, or NULL if it fails
  * @argc: count of arguments
- * @argv: array of arguments 
+ * @argv: array of arguments
  */
 
 char *argstostr(int argc, char **argv)
@@ -36,7 +36,7 @@ char *argstostr(int argc, char **argv)
 	}
 	size = 0;
 
-	for (index_0 = 0; index_0 < argc; index_0++) 
+	for (index_0 = 0; index_0 < argc; index_0++)
 	{
 		for (index_1 = 0; argv[index_0][index_1]; index_1++)
 		{
