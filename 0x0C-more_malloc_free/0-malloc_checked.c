@@ -13,11 +13,14 @@ void *malloc_checked(unsigned int byte)
 {
 	void *alloc_mem;
 
-	alloc_mem = (void *)malloc(sizeof(alloc_mem) * byte);
+	alloc_mem = malloc(sizeof(void *) * byte);
 
-	if (alloc_mem == NULL || byte <= 0)
+	if (alloc_mem == NULL)
 	{
 		exit(98);
 	}
-	return (alloc_mem);
+	else
+	{
+		return (alloc_mem);
+	}
 }
