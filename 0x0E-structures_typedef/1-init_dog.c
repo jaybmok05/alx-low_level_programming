@@ -11,11 +11,11 @@
 
 void init_dog(struct dog *dog_ptr, char *name, float age, char *owner)
 {
-	if ( dog_ptr == NULL)
+	if (dog_ptr == NULL)
 	{
 		dog_ptr = malloc(sizeof(struct dog));
 	}
 	dog_ptr->name = name;
-        dog_ptr->age = age;
-        dog_ptr->owner = owner;
+	dog_ptr->age = age;
+	dog_ptr->owner = owner;
 }
