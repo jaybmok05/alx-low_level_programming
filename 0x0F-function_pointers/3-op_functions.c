@@ -59,7 +59,7 @@ int op_mul(int a, int b)
 /*start of op_div*/
 int op_div(int a, int b)
 {
-	int quotient = a / b;
+	double quotient = a / b;
 
 	if (b == 0)
 	{
