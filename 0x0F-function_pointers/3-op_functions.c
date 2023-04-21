@@ -43,7 +43,7 @@ int op_sub(int a, int b)
 /*start of op_mul*/
 int op_mul(int a, int b)
 {
-	int product = a * b;
+	long int product = a * b;
 
 	return (product);
 }
