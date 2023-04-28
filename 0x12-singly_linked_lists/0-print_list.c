@@ -9,7 +9,7 @@
 
 size_t print_list(const list_t *head)
 {
-	size_t num_of_nodes;
+	int num_of_nodes;
 
 	/*loop over head*/
 	for (num_of_nodes = 0; head != NULL; num_of_nodes++)
