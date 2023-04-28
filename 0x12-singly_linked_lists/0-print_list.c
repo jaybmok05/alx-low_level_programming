@@ -17,7 +17,7 @@ size_t print_list(const list_t *head)
 		/*checks if malloced str is NULL*/
 		if (head->str == NULL)
 		{
-			printf("[0](nil)");
+			printf("[0](nil)\n");
 			head = head->next;
 			num_of_nodes++;
 		}
