@@ -16,7 +16,7 @@ size_t print_list(const list_t *head)
 		printf("[0](nil)");
 	}
 
-	/*loop over malloced str*/
+	/*loop over head*/
 	for (num_of_nodes = 0; head != NULL; num_of_nodes++)
 	{
 		printf("[%d] %s\n", head->len, head->str);
