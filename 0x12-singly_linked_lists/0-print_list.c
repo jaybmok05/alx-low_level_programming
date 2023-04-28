@@ -11,14 +11,16 @@ size_t print_list(const list_t *head)
 {
 	unsigned int num_of_nodes;
 
-	if (head->str == NULL)
-	{
-		printf("[0](nil)");
-	}
-
 	/*loop over head*/
 	for (num_of_nodes = 0; head != NULL; num_of_nodes++)
 	{
+		/*checks if malloced str is NULL*/
+		if (head->str == NULL)
+		{
+			printf("[0](nil)");
+			head = head->next;
+			num_of_nodes++;
+		}
 		printf("[%d] %s\n", head->len, head->str);
 		/*point to the next node*/
 		head = head->next;
