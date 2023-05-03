@@ -19,9 +19,9 @@ listint_t *add_nodeint(listint_t **head, const int n)
 		return (NULL);
 	}
 
-	node_ptr ->n = n;
+	node_ptr->n = n;
 	/*will point to the first node via head*/
-	node_ptr ->next = *head;
+	node_ptr->next = *head;
 
 	/*head points to first node, now is node_ptr*/
 	*head = node_ptr;
