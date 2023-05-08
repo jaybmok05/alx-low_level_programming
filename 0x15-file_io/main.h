@@ -1,6 +1,13 @@
 #ifndef MAIN_FILE_H
 #define MAIN_FILE_H
 
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
 /**
  * read_textfile - a function that reads a text file and
  * prints it to the POSIX standard output.
