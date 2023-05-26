@@ -7,6 +7,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
+#include <elf.h>
 
 /**
  * read_textfile - a function that reads a text file and
